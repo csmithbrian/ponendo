@@ -8,7 +8,7 @@ http://www.tooplate.com/view/2083-steak-house
 
 body {
 		background: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 	}
 
@@ -68,6 +68,7 @@ p {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 28px;
+  text-indent: 50px;
 }
 
 a {
