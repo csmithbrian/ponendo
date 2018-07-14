@@ -107,7 +107,9 @@ tr:nth-child(even) {
 tr:hover {background-color: #ccc;}
 th {text-align: left;}
 td {border: none;}
-table {width: auto;}
+table {
+    width: auto;
+}
 /* Clear both sides to assist with div alignment  */
 .clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 hr {
