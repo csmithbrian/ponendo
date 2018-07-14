@@ -15,6 +15,7 @@ img {
 figure {
 	display: contents;
 }
+figure:hover img {opacity: 0.75;}
 img, figcaption {display: table-row;padding-top: 1px;}
 
 h1,h2,h3,h4,h5,h6 {
@@ -81,12 +82,15 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 14px;
 	font-style: italic;
 	border-right: groove;
-	justify-content: right;
+	text-align: justify;
+    text-justify: inter-word;
 }
 #content .content-item .article {
 	display: block;
 	float: right;
 	width: 74%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* Footerblurb */
@@ -146,8 +150,8 @@ hr {
 	#content {width: 90%;}
 	figure {
 		float: left;
-		display: block;
-        width: 90%;
+		display: contents;
+        width: 100%;
 	}
 	#logo {
 		float: none;
