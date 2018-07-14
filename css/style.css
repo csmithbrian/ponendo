@@ -1,7 +1,7 @@
 html, #page { padding:0; margin:0;}
 body { margin:0; padding:0; width:100%; color:#2c2c2d; font:normal 16px/2.0em "Libre Baskerville","Georgia","Garamond", Serif;}
 p {font-family: "Libre Baskerville","Georgia", "Garamond", Serif;font-size: 16px;}
-figcaption {font-family: "Libre Baskerville", Georgia, Garamond, Serif; font-size: 12px; text-decoration: overline;}
+figcaption {font-family: "Libre Baskerville", Georgia, Garamond, Serif; font-size: 12px; text-decoration: overline;padding-top: 1px;}
 #page { background:#f2f2f2;}
 #header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
 img {
@@ -15,7 +15,7 @@ img {
 figure {
 	display: contents;
 }
-img, figcaption {display: table-row;}
+img, figcaption {display: table-row;padding-top: 1px;}
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Palatino Linotype","Palatino","Baskerville", Serif;
