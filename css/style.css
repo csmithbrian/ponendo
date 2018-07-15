@@ -7,7 +7,7 @@ figcaption {font-family: "Libre Baskerville", Georgia, Garamond, Serif; font-siz
 img {
 	max-width: 100%;
 	height: auto;
-    width:90%;
+    width:100%;
     padding-left: 0;
 	display: block;
 	margin-right: auto;
@@ -108,6 +108,7 @@ tr:nth-child(even) {
 	background-color: #ddd
 }
 tr:hover {background-color: #ccc;}
+td:hover {background-color: #bbb;}
 th {text-align: left;}
 td {border: none;}
 table {
