@@ -110,7 +110,10 @@ tr:nth-child(even) {
 tr:hover {background-color: #ccc;}
 td:hover {background-color: #bbb;}
 th {text-align: left;}
-td {border: none;}
+td {
+    border: none;
+    text-align: left;
+}
 table {
     width: auto;
 }
