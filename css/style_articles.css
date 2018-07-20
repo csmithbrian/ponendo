@@ -1,5 +1,6 @@
 .flex {
-  display: flex; /* or inline-flex */
+    display: flex;
+    width: 70%;
 }
 #main {
     width: 90%;
@@ -9,3 +10,11 @@
 img {height: 300px;width: 350px;}
 figcaption h1,h2,h3 {text-align: center;}
 figcaption {text-align: center;}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .flex {width: 85%;}
