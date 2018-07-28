@@ -2,7 +2,7 @@ html, #page { padding:0; margin:0;}
 body { margin:0; padding:0; width:100%; color:#2c2c2d; font:normal 16px/2.0em "Libre Baskerville","Georgia","Garamond", Serif;}
 p {font-family: "Libre Baskerville","Georgia", "Garamond", Serif;font-size: 16px;}
 figcaption {font-family: "Libre Baskerville", Georgia, Garamond, Serif; font-size: 12px; text-decoration: overline;padding-top: 1px;}
-#page { background:#f2f2f2;}
+#page { background:#eodbd9;}
 #header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
 img {
 	max-width: 100%;
@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /* Header */
-#header { background:#fff;}
+#header { background:#a4ac96;}
 #header-inner { margin:0 auto; padding:0; width:90%;}
 #header a {
 	color:#4c4c4f;
@@ -130,7 +130,20 @@ hr {
 }
 @media screen and (max-width:800px) {
 	/* For mobile phones: */
-    #header {height: 360px}
+    #logo {
+    border-top: 1px solid #aaa;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+    }
+
+    #logo h1 {
+    padding: 5px 10px;
+    font-size: 24px;
+    }
+    #header {height: 379px;}
 	#header-inner {width: 96%;}
 	#header-inner #top-nav a {
 		float: none;
